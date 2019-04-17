@@ -19,7 +19,7 @@ Go to Navigation menu > Composer:
 ### 2. Create a Cloud Storage bucket
 
 Go to Navigation menu > Storage > Browser and then click Create bucket.
-- Give your bucket a universally unique name, then **click Create.**
+- Give your bucket a universally unique name (in this case I called it **composer-bucket-aj**), then **click Create.**
 
 ### 3. Setting Airflow variables
 
@@ -34,4 +34,6 @@ Go to Airflow UI using the GCP Console:
 
 ### 4. Copying the DAG to Cloud Storage
 
-Save **quickstart.py** file on your local virtual machine:
+In Cloud Shell, copy and save **quickstart.py** file on your local virtual machine. Also, find DAGs folder (you can check that by going to Composer > Environments), copy value for same and replace it with DAGs_folder_path in following command to upload the file:
+
+`gsutil cp gs://my-bucket/quickstart.py DAGs_folder_path`
