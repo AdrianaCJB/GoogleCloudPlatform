@@ -34,6 +34,6 @@ Go to Airflow UI using the GCP Console:
 
 ### 4. Copying the DAG to Cloud Storage
 
-In Cloud Shell, copy and save **quickstart.py** file on your local virtual machine. Also, find DAGs folder (you can check that by going to Composer > Environments), copy value for same and replace it with DAGs_folder_path in following command to upload the file:
+In Cloud Shell, copy and save **quickstart.py** file on your local virtual machine. Also, find DAGs folder (you can check that by going to Composer > Environments). Replace \*DAGs_folder_path\* to DAGs folder in following command to upload the file:
 
 `gsutil cp gs://my-bucket/quickstart.py DAGs_folder_path`
