@@ -32,6 +32,7 @@ Go to Airflow UI using the GCP Console:
 5. Select Admin > Variables from the Airflow menu bar, then Create
 6. In this step you'll set the following three Airflow variables typically used by DAGs: **gcp_project, gcs_bucket, and gce_zone**.
 
+
 ### 4. Copying the DAG to Cloud Storage
 
 In Cloud Shell, copy and save **quickstart.py** file on your local virtual machine. Also, find DAGs folder (you can check that by going to Composer > Environments). Replace \*DAGs_folder_path\* to DAGs folder in following command to upload the file:
