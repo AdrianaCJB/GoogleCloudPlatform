@@ -38,4 +38,4 @@ Go to Airflow UI using the GCP Console:
 
 In Cloud Shell, copy and save **quickstart.py** file on your local virtual machine. Also, find DAGs folder (you can check that by going to Composer > Environments). Replace \*DAGs_folder_path\* to DAGs folder in following command to upload the file:
 
-`gsutil cp gs://my-bucket/quickstart.py DAGs_folder_path`
+`gsutil cp gs://composer-bucket-aj/quickstart.py DAGs_folder_path`
