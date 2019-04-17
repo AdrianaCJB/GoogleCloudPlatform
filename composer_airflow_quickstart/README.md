@@ -32,6 +32,7 @@ Go to Airflow UI using the GCP Console:
 5. Select Admin > Variables from the Airflow menu bar, then Create
 6. In this step you'll set the following three Airflow variables typically used by DAGs: **gcp_project, gcs_bucket, and gce_zone**.
 
+![Captura](https://user-images.githubusercontent.com/45202448/56320942-517ec680-6133-11e9-837c-94144d80e1ff.JPG)
 
 ### 4. Copying the DAG to Cloud Storage
 
